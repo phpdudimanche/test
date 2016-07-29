@@ -1,4 +1,5 @@
 ## TOM (Testing Operator Management) : référentiel de test ##
+(renommer "_config.php" en "config.php" et y remplir les données de connection)
 
 ### Positionnement métier ###
 
