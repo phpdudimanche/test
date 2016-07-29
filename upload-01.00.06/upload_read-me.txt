@@ -1,0 +1,69 @@
+
+// SUMMARY
+
+upload module has vocation to be used by all other modules : category (specification), test case (data to test), test run (prooves)
+
+in category list, link to : "add media"
+open index renamed upload_form_edt.php
+
+// RESOURCES
+
+http://www.zone-webmasters.net/codes-sources/php/60-classe-d-upload-de-fichier-php5.html : simple
+http://www.phpclasses.org/package/2181-PHP-Process-files-and-images-uploaded-via-a-form.html : complex
+http://phpcodeur.net/articles/php/upload
+http://antoine-herault.developpez.com/tutoriels/php/upload/
+http://igm.univ-mlv.fr/~dr/XPOSE2004/dessaigne/php5.html : class in php 5 : _construct
+
+// TODO
+
+add the label field
+if no use of database, norme text and rename file with label
+
+
+http://127.0.0.1/02_DEV/V.02.02.03/upload-01.00.04/upload_list_edt.php?object_id=6&object_type=category&object_name=proc%E9dure%20de%20test%20:%20ajouter%20un%20projet
+
+
+I delete a data : the form has no upload file
+I want to update file : to erase old file : it is not possible.
+- Add a link wich equals to :
+upload_form_edt.php?
+object_id=5&
+object_type=category&
+object_name=cas%20de%20test%20:%20l'utilisateur%20ne%20se%20rappelle%20plus%20ce%20qu'il%20fait
+-> but force to reuse the same id and to eraze at the same time the old data
+
+
+in documents list : put link on file, and add on header table "(to replace)"
+link to form, then to act : upload_file_update.php
+- upload
+- retrieve the old file
+- erase the old file in directory
+- update only the file field
+advertising : "you are going to erase and replace this file : do you confirm or do you abort ?"
+
+execution_steps_create.php?execution_id=5&scenario_id=8
+add : hover effect
+<tr>
+form : form_execution_steps
+
+upload_file_form.php?
+upload_file_update
+
+
+
+// DONE
+
+
+-- 01.01.02
+
+root menu
+
+-- 00.01.01
+
+the header's title of upload_list_edt.php is written in lang file
+
+-- 00.01
+
+return array with all fields to use for input in database
+language fr
+table structure : upload

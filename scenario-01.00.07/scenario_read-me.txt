@@ -1,0 +1,66 @@
+
+// SUMMARY
+
+scenario means test case with : action, expected results...
+
+// TO DO
+
+
+
+// DONE
+
+
+-- 01.00.02
+
+link to public directory (header, footer)
+
+
+-- 01.00.01
+
+footer on scenario_steps_list_edt.php if there is no choosen scenario
+
+-- 00.04.01
+
+index is operational
+root meny
+
+
+-- 00.04
+
+difficult union beetween the two versions
+
+-- 00.03
+
+it was done before 00.02.01
+
+-- 00.02.01
+
+resolution of anomaly number 104
+resolution of anomaly number 101
+rename changelog with name of module : changelog-00.02 becomes scenario-00.02.01
+add scenario_lang_fr.php
+export fileds names are issued of language files
+
+-- 00.02
+
+duplicate all the steps of a scenario
+the input becomes from category
+file : category_steps_delete_act.php
+
+
+-- 00.01
+
+add export "like xls" for a scenario
+add limit in listing result query
+add paginate in listing
+
+-- 00.00
+
+add script of order (see category)
+steps limit by page
+always the number limit of step
+always step to add
+in "category", add link to "scenario"
+get id and name of the origin category
+display name as title of the scenario
+put id and name on session result and array result['scenario']

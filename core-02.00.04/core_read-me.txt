@@ -1,0 +1,24 @@
+
+// SUMMARY
+
+common libraries to administrate easily modules
+
+// TO DO
+
+
+
+// DONE
+
+-- 01.02
+
+root use head function : no more directory
+used : include menu of root in all modules
+
+
+-- 01.01
+
+lib_Common with : select_list function, head dunction
+
+-- 01.00
+
+repertory presentation used language description (index.txt becomes index_fr.txt and index_uk.txt)

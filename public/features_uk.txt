@@ -1,0 +1,27 @@
+// UPDATE 12-11-25
+
+ajouter une catégorie à la racine ou sous une autre catégorie
+déplacer une catégorie
+déplacer un catégorie avec ses catégories enfants
+réordonner des catégories de même niveau
+modifier une catégorie
+supprimer une catégorie et ses éventuels éléments liés : scenario, pas de test
+
+télécharger un document lié à une catégorie du site
+modifier le nom du fichier téléchargé
+remplacer le fichier téléchargé par un autre
+
+créer un scenario, autrement nommé procédure de test
+supprimer un scenario ou procédure de test
+copier un scenario et les pas de test associés
+exporter les pas de test d'un scenario
+
+exécuter des pas de test
+exporter les résultats d'un pas de test
+visualiser le compte rendu d'uen exécution en termes de pas exécutés avec succès ou non
+
+installation automatique du site
+choix du préfixe des tables du site
+configuration en ligne des options du site
+interface du site multilingue : fr/uk pour l'instant
+application des normes ISTQB :  objet de test / article de test / condition de test / cas de test / procédure de test

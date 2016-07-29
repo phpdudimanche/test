@@ -1,0 +1,1 @@
+configuration en ligne;mise à jour par onglet d'un fichier de config

@@ -1,0 +1,156 @@
+
+
+// done
+
+
+- 02.02.05
+
+migration to php5, mysqli, utf8
+
+
+- 02.02.04
+
+no more MAJ in category_inc.php link scenario
+compatible with magic quotes in config_act.php 
+
+- 02.02.03
+
+index displays list of features
+
+-> category 01.00.06
+in category_inc.php, functions printTree and displayTree : action label with icons (option to administrate online)
+furthermore, dispaly label istqb behind category name, if istqb is activated
+-> config 00.00.02
+add generic term before icons as : SCENARIO EXECUTION DOCUMENT 
+add label in alt (also in lang)
+-> execution (langs)
+index with dashboard
+mutualised functions for execution inprogress and closed : just the query is changed
+-> scenario : scenario_steps_list_edt.php : have a div for breadcrum
+-> upload
+becareful to session : think to kill its
+the query is in a function (not use anywhere else !)
+two returns by an array for pagination, and conditional query
+
+- 02.02.02 : BEGIN 12-11-04 / END 12-11-13
+
+public/root_design_01.css
+category/category_inc.php
+categories list with possible double color (odd and even) and the third color on roll-over
+config-00.00.01
+config.php
+scenario/scenario_config.php
+There were no quotes in key of array : so undefined constant in : upload_lang_uk.php and execution_lang_uk.php
+help file is update
+
+- 02.02.01 : END 12-11-03
+
+breadcrumb, anda also with istqb labels (option in config)
+contextual categories'list with number of level to display
+number level to display in config and also in session for further changes
+in istqb : scenario and execution appears only in level 5
+execution report without chart pie
+update help file
+continuation of resolution of errors type notice
+
+- 02.01.02
+
+resolution of errors type notice : Undefined index due to the absence of existence control, undefined constant due to absence of quotes '' in [...]
+modules : scenario, category, upload, execution
+module : core : test of certains variables
+module upload administrate labels of upload files
+fr help file
+root_design_01.css to trait report design
+
+- 02.01.01
+
+no more [module]-[version].txt : too more files to maintain, just [module]_read-me.txt
+every module has correction to have no NOTICE error (vars no defined, or defined twice without require_once for appli config file)
+
+- 02.01.00
+
+favicon for each page
+
+
+- 02.00.07
+
+
+possible common css for all modules of apply
+icons in css
+upload with timestamp in name file
+true or flase to detect error type : différent database or datatable
+each page has header and footer
+
+
+
+- 02.00.06
+
+sql script are rewriten with prefix PRE_
+add "IF NOT EXISTS" when it is not in sql files
+delete comments if they are in sql files
+add PREFIX in config
+automatic install in install directory
+detect if datables prefix exist
+add explanation in help file
+add prefix in all config files
+
+- 02.00.05
+
+root of public/help was not correct
+$to_directory is used for the principal directory in public/_header.php
+
+- 02.00.04
+
+let in root only these files
+.htaccess, index.php, config.php
+create public repertory
+
+- 02.00.03
+
+corrections :
+- scenario-01.00.00/scenario_steps_list_edt.php has a footer
+- index.php has a footer
+
+
+- 02.00.02
+
+a footer as common
+debug is a general parameter
+tables names are numeroted to be specific by project
+
+
+- 02.00.01
+
+help file is created and added to menu
+category : links to upload with singular plural, display or not
+
+
+- 02.00.00
+
+module execution
+
+- 01.02.01
+
+config.php 
+category 00.05.02 : general config manage links with other applications and links according to level agreements
+
+module-readme file is everywhere and renamed
+
+
+- 01.02.00
+
+in repertory module, index.txt becomes index_fr.txt or index_uk.txt
+read-me becomes version...
+no more static table, only dynamic terms
+use upload in category (with scenario)
+_DIR_ is just for PHP 5.3.0
+
+:: TODO
+
+
+use category with different projects (kheops, logidrive) and with different objects (scenario, hierarchy for event or other application)
+mark the evolution in code in order to remove easier this portion of code 
+
+
+$config_scenario=array(S-001:Logidrive;S-002:Dev);// categories used by scenario : if exists in scenario, the scrip lists and display scenario
+$config_hierarchy=array(H-001:Kheops;H-002:Dev);// categories used by hierarchy : if exists in category, the script lists

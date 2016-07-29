@@ -1,0 +1,74 @@
+
+// SUMMARY
+
+To manage category in all type of sites.
+Categories in CMS, ECOMMERCE, requirements tools...
+
+Different configuration options apply relation or not with other applications : scenario, upload
+Different configuration options apply rights or not : administrator or user, in the way just to see or to manage everything
+
+
+// TO DO
+
+
+
+// DONE
+
+
+-- 01.00.02
+
+link execution only if scenario steps exist
+list execution in process and finished
+
+-- 01.00.01
+
+link to public directory
+
+
+-- 00.05.04
+
+include menu of root
+category_inc.php : no more display all files uploaded, different labels : singular or plural
+
+-- 00.05.03
+
+links to excecution
+
+
+-- 00.05.02
+
+links to scenario without administration is in capital letters (perhaps not beautiful enough)
+for compatibility with and without other application, links and queries are slaves of root config file
+
+-- 00.05.01
+
+category_list_edt.php : title's header is written in lang file
+
+
+-- 00.05
+
+display the links media with labels
+the link to css file is in category_config.php
+the option havec a css
+the media is an option by configuration (later by session)
+
+-- 00.04
+
+the medias is an array like media_name:media_label:media_extension
+
+duplicate category for steps' scenario
+
+-- 00.03
+
+personnalization link to scenario
+function for insertion in other application
+
+-- 00.02
+
+rename page and remake link
+to have same presentation, add "Level 0" in "category_move_edt.php" side source
+in "category_lang_fr.php", add double <br /> for $process_move
+put all queries in variable
+put all content text in language page
+- in "traitment()", EOF
+- for category_order_edt.php : add : $order_crack

@@ -1,0 +1,31 @@
+
+// SUMMARY
+
+to run test
+steps in a campaign
+campaign status
+steps status
+
+//--- TODO
+
+
+
+//--- DONE
+
+--- 01.00.01
+
+footer and header are include from public repertory
+
+list of execution finished for a category
+do not run test if a test is in paused
+
+--- 00.01.01
+
+include root menu
+
+--- 00.01.00
+
+index is operational
+action : pause and close
+create steps of scenario, with pagination
+create scenario

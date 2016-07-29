@@ -1,0 +1,58 @@
+/* UPDATE 12-11-25  */
+/*.menu{}*/
+
+/* include */
+.menu{display:block;padding-bottom:2px;}
+.menu a{color:#808080;text-decoration: none;outline:none;/*display:block;float:left;width:170px;*/}/*#808080 */
+/* .menu a:hover{text-decoration:underline}  no effect :active */
+.settings{background:url(ic_settings.png) no-repeat left;padding-left:20px;}
+.home{background:url(3D-Cube.png) no-repeat left;padding-left:20px;}
+.help{background:url(ic_users.png) no-repeat left;padding-left:20px;}
+.upload{background:url(ic_folder.png) no-repeat left;padding-left:20px;}
+.category{background:url(ic_list.png) no-repeat left;padding-left:20px;}
+.execution{background:url(ic_sync.png) no-repeat left;padding-left:20px;}
+.scenario{background:url(ic_empty_document.png) no-repeat left;padding-left:20px;}
+.here{color:black;font-weight: bold}
+.footer{display:block;padding-top:20px;}
+
+/* category */
+/* frame 1104 550 550 */
+#double_side{width:904px;margin:auto;float:left;text-align:center;border:0.2px dashed #808080;padding-top:5px;padding-bottom:5px}/* float:center; */
+#side_source{width:450px;float:left;border-right: gray 1px solid;color:blue;text-align:left;}
+#side_target{width:450px;float:right;color:green;text-align:left;}
+hr{clear: both; visibility: hidden;}
+#breadcrumb_and{width:1100px;}/* to size as category list */
+/* debug  #move_submit */
+ul,li{line-height:18px;padding-bottom:0px;margin-left:5px;padding-left:5px;list-style-type:none;}
+#category_list{width:1100px;position: relative;}/* too hugly if it is unlimited  dotted */
+#category_list li{border-bottom:solid 1px #888; margin:0;}
+#category_list .pos_01{position: absolute;left:450px;}
+#category_list .pos_02{position: absolute;left:580px;}
+#category_list .pos_03{position: absolute;left:750px;}
+#category_list .pos_04{position: absolute;left:900px;}
+#category_list li a{outline:none}
+.odd{background-color:white} /* odd/1  #B4A5AF */
+.even{background-color:white} /* even/2 #CCCCCC */
+.odd:hover{background-color:#CCCCCC}/* chrome */
+.even:hover{background-color:#CCCCCC}
+input{color:red;}
+#form_execution_steps tr:hover{background-color:#CCCCCC}
+#form_scenario_steps tr:hover{background-color:#CCCCCC}
+/* list of actions links */
+.spacer{margin-right:0px;margin-left:0px;}
+.option a{color:#804000;}/* #999999  */ 
+a.in_progress  {color:red;text-decoration: none;outline:none}
+tfoot td{text-align:center;font-weight: bold;}
+/* report IE8 OK, FF3.5.16 OK, */
+#report .EMPTY {color:gray;text-align:center}
+#report .KO {color:red;text-align:center}
+#report .OK {color:#32CD99;text-align:center}
+#report .NT{color:#D98719;text-align:center}
+#report thead th{border-bottom:#5C3317 1px solid}
+#report tfoot th{border-top:#5C3317 1px solid;text-align:center;font-weight: bold;}
+
+/* generic */
+body{font-family:verdana,arial,sans-serif;font-size:13px}
+a{color:blue;text-decoration:none;outline:none}/* blue */
+a:hover{text-decoration:underline}
+img{border:none}
